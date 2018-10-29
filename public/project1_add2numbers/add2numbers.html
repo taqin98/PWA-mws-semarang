@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Add 2 Numbers</title>
+	<link type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<style type="text/css">
+body {
+    color: #757575;
+    font-family : 'Open Sans', sans-serif;
+    font-style : normal;
+    font-weight : 400;
+
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 100%;
+    background-color: #039be5;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 1px;
+
+    transition-property: box-shadow;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.container {
+    padding: 2px 16px;
+    display: flex;
+}
+
+.box {
+	float: left;
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+    margin: 10px;
+}
+.colored {
+        width: 100%;
+        height: 5px;
+        border-radius: 3px;
+        float: left;
+        background-color: #ffa000;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 360px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 360px){
+    .card {
+    	width: 100%;
+    	height: 500px;
+    }
+    div.colored { margin-top: 100%;  }
+}
+
+@media screen and (min-width: 360px){
+	body {
+		background-color: #f7f3f3;
+	}
+	.card {
+		background-color: white;
+    	height: 500px;
+    	margin: auto;
+    }
+    div.colored { margin-top: 5.9%;  }
+}		
+</style>
+</head>
+<body>
+
+<div class="card">
+	<div class="container">
+		<div class="box">
+			<label>Angka pertama</label>
+			<input id="number" class="angka" type="number" name="" placeholder="0"><br>
+		</div>
+	</div>
+	<div class="container">
+		<div class="box">
+			<label>Angka kedua</label>
+			<input id="number" class="angka" type="number" name="" placeholder="0"><br>
+		</div>
+	</div>
+	<div class="container" style="height: 50px;">
+		<div class="box">
+			<div class="colored"></div>
+		</div>
+		<div class="box" style="width: 10px; margin-bottom: 20%;"><h3>+</h3></div>
+	</div>
+	<div class="container">
+		<div class="box">
+			<input class="angka" type="text" name="" placeholder="Hasil" readonly=""><br>
+		</div>
+	</div>
+	<div class="container">
+		<div class="box">
+			<div id="message"></div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="box">
+			<button class="tambah btn">
+				<strong>HITUNG</strong>
+			</button>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="../assets/js/add2numbers.js"></script>
+
+</body>
+</html>
