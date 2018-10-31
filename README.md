@@ -12,13 +12,17 @@ Pelatihan Google Developer Kejar - Mobile Web Specialist Oleh Inixindo Disemaran
 6. Membuat Offline Web dengan Service Worker
 7. Membuat Map lokasi kuliner (Fetch JSON)
 
-### Require
+### Required
 
 What things you need to install the software and how to install them
 
 ```
 1. Node js
-2. npm
+2. npm install -g firebase-tools
+3. firebase login
+4. firebase init
+5. firebase deploy
+
 ```
 
 ### Installing
