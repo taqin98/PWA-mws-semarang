@@ -39,6 +39,8 @@ open text editor
 ```
 
 Demo website : taqinpwa.firebaseapp.com
+- Demo [Web Cek Ongkir](http://rajaongkir.indoweb.xyz) .
 ```
+- Demo [Website PWA Taqin](http://www.taqinpwa.firebaseapp.com) .
 
 happy coding
