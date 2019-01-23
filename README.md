@@ -36,6 +36,6 @@ Say what the step will be
 open text editor
 ```
 
-- Demo [Website PWA Taqin](http://www.taqinpwa.firebaseapp.com) .
+- Demo [Website PWA Taqin](taqinpwa.firebaseapp.com) .
 
 happy coding
